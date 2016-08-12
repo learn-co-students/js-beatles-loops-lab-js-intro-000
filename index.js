@@ -26,10 +26,10 @@ function iLoveTheBeatles(number) {
 	var iLoveArray = [];
 
 	do {
-		iLoveArray.push("I love the Beatles!");
 
-	} while (number > 0 && number-- < 17);
-	
-    
+	  iLoveArray.push("I love the Beatles!");
+      number ++;
+	} while (number < 15);
+    //number > 0 && number-- < 17
 	return iLoveArray;
 };
