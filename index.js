@@ -28,8 +28,8 @@ function iLoveTheBeatles(number) {
 	do {
 
 	  iLoveArray.push("I love the Beatles!");
-      number ++;
-	} while (number < 15);
-    //number > 0 && number-- < 17
+      
+	} while (number > 0 && number-- < 17);
+ 
 	return iLoveArray;
 };
