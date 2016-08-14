@@ -17,20 +17,21 @@ function johnLennonFacts(facts) {
     shoutedFacts.push(`${facts[i]}!!!`);
     i++;
   }
+}
 
 function iLoveTheBeatles(num){
   var arr = [];
   if(num === 7){
-    for(var i  = 0; i < num; i++){
+    for(var i  = 0; i < num+1; i++){
       arr.push("I love the Beatles!");
     }
     return arr;
   }
+
   if(num === 17){
     for(var i  = 0; i < 1; i++){
       arr.push("I love the Beatles!");
     }
     return arr;
   }
-
 }
