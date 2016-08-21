@@ -16,22 +16,20 @@ i--;
 return facts
 }*/
 
-function johnLennonFacts(facts){
-  var i=4;
-        while(i){
-facts=console.log(facts[i], "!!!");
-i--
+function johnLennonFacts(facts) {
+  var i = 0;
+        while(i < facts.length) {
+facts[i]+= "!!!";
+i++;
 }
-return facts
+return facts;
 }
-
 
 function iLoveTheBeatles(number){
-  var number=[];
-  var counter=0;
-  do{
-number.push("I love the Beatles!")
-counter++
-  }while(counter<15)
-  return number
+  var coool=[];
+    do{
+coool.push("I love the Beatles!");
+number++;
+  }while(number<15)
+  return coool;
 }
