@@ -23,6 +23,6 @@ function johnLennonFacts(array){
 
   while (array.lenght === 0){
 
-    return `${array[0]} ${"!!!"}`
+    facts.push(`${array[0]} ${"!!!"}`)
   }
 }
