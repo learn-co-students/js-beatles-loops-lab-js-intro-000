@@ -27,17 +27,14 @@ function johnLennonFacts(facts){
   }
   return v
 }
-
-
 function iLoveTheBeatles(number){
-  let g = 7
-  var v = []
-
-  var f = "I love the Beatles!"
+  var empty = []
   do {
-      v.push(f)
-      g++  }
-  while (v[g] < 15){
+    empty.push("I love the Beatles!")
+    number++
   }
-return v
+  while ( number < 15){
+
+  }
+  return empty
 }
