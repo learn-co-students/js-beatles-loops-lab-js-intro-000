@@ -18,11 +18,26 @@ array.push(`${musicians[3]} ${xx} ${instruments[3]}`)
 return array
 }
 
-function johnLennonFacts(array){
-
-
-  while (array.lenght === 0){
-
-    facts.push(`${array[0]} ${"!!!"}`)
+function johnLennonFacts(facts){
+  var i = 0
+  var v = []
+  while ( i < facts.length ) {
+  v.push(`${facts[i]}!!!`)
+     i++
   }
+  return v
+}
+
+
+function iLoveTheBeatles(number){
+  let g = 7
+  var v = []
+
+  var f = "I love the Beatles!"
+  do {
+      v.push(f)
+      g++  }
+  while (v[g] < 15){
+  }
+return v
 }
