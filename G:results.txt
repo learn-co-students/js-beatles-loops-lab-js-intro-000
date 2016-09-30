@@ -1,0 +1,4 @@
+
+> js-beatles-loops-lab@0.1.0 test /home/margaritdrozdoff-30633/code/labs/js-beatles-loops-lab-js-intro-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
