@@ -45,8 +45,28 @@ function johnLennonFacts(facts){
 // The function should return an array of strings
 // with exclamation points.
 var facts2 = []
-let countdown = 4
-while (countdown >= 0) {
+let countdown = facts.length
+while (countdown > 0) {
  facts2.unshift(`${facts[--countdown]}!!!`)
 } return facts2
+}
+
+// Create a function iLoveTheBeatles
+// which accepts a number as a parameter.
+function iLoveTheBeatles(n){
+// The body of the function should create a variable
+// that stores an empty array.
+var miArray = []
+// Then, implement a do-while loop inside the function that adds
+// "I love the Beatles!" to the empty array.
+// Then the loop should increment the number passed in
+// as a parameter.
+// The condition of the loop should check to see
+// that the parameter number is less than 15.
+// The function should return the array with the strings
+// "I love the Beatles!".
+do {
+  ++n, miArray.unshift("I love the Beatles!");
+} while  (n < 15) ;
+return miArray
 }
