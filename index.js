@@ -45,8 +45,8 @@ function johnLennonFacts(facts){
 // The function should return an array of strings
 // with exclamation points.
 var facts2 = []
-let countdown = 5
-while (countdown >= 1) {
+let countdown = 4
+while (countdown >= 0) {
  facts2.unshift(`${facts[--countdown]}!!!`)
 } return facts2
 }
