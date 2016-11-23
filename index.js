@@ -22,6 +22,6 @@ var newArray = [];
 do {
 newArray.push ("I love the Beatles!")
 }
-while (newArray.length<(number-1)&&number<15)
+while (newArray.length<=number&&number<15)
 return newArray
 }
