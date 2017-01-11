@@ -1,6 +1,7 @@
 var complete = [];
 var complete1 = [];
 var complete2 = [];
+var r = 0;
 
 function theBeatlesPlay(musicians, instruments){
   for(var i=0; i < musicians.length; i++){
@@ -11,17 +12,23 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts(facts){
-  for (var i = 0; i < facts.length; i++) {
-    var holder1 =  facts[i] + "!!!";
+  while (r < facts.length) {
+    var holder1 = facts[r] + "!!!";
     complete1.push(holder1);
+    r++;
   }
   return complete1;
 }
 
 function iLoveTheBeatles(num){
-  for(var e=0; e < num; e++){
-    var holder2 = "I love the Beatles";
-    complete2.push(holder2);
-  }
+if(num <= 17){
+  do {
+    complete2.push("I love the Beatles!");
+    num++;
+  } while (num < 15);
+}
+else{
+  complete2.push("I love the Beatles!");
+}
   return complete2;
 }
