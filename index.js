@@ -1,18 +1,16 @@
 function theBeatlesPlay(musiciansArr, instrumentsArr) {
-  var Arr = []
-  //arr.length = 4
-  //0, 1, 2, 3 1 is at index 0,
-    for (var x = 0; x < musiciansArr.length; x++) {
-      Arr.push(`${musiciansArr[x]} plays ${instrumentsArr[x]}`)
+  var arr = []
+    for (var i = 0; i < musiciansArr.length; i++) {
+      arr.push(`${musiciansArr[i]} plays ${instrumentsArr[i]}`)
     }
-    return Arr
+    return arr
   }
 
   function johnLennonFacts(facts) {
-    var index = 0
-    while (index < facts.length) {
-      facts[index] += "!!!"
-      index++
+    var i = 0
+    while (i < facts.length) {
+      facts[i] += "!!!"
+      i++
     }
     return facts
   }
@@ -24,5 +22,3 @@ function theBeatlesPlay(musiciansArr, instrumentsArr) {
     } while (++number < 15)
     return arr
   }
-
-    
