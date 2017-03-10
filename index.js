@@ -16,10 +16,11 @@ function johnLennonFacts(array){
     return newArray
 }
 
-function iLoveTheBeatles(parameter){
+function iLoveTheBeatles(number){
   var beatlesFan = []
-  do{beatlesFan.push("I love the Beatles!")
+  do{beatlesFan.push("I love the Beatles!");
+  number++
   }
-    while(parameter < 15)
+    while(number < 15)
     return beatlesFan
 }
