@@ -9,29 +9,37 @@ const facts = [
 ];
 
 
-
-function theBeatlesPlay(a,b) {
-  var group = [];
-   
-  return [ 'John Lennon plays Guitar', 'Paul McCartney plays Bass Guitar', 'George Harrison plays Lead Guitar', 'Ringo Starr plays Drums' ] 
+function theBeatlesPlay(musicians, instruments) {
+  var a = []
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    a.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+  return a
 }
 
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
+const text = []
 
-
-  return [ 'He was the last Beatle to learn to drive!!!', 'He was never a vegetarian!!!', 'He was a choir boy and boy scout!!!', 'He hated the sound of his own voice!!!' ]
+let i = 0
+while (i < facts.length) {
+text.push(`${facts[i]}!!!`)
+i++
+}
+return text
 }
 
-function iLoveTheBeatle(n) {
+
+function iLoveTheBeatles(n) {
   var a = []
   do {
     a.push('I love the Beatles!')
+    n++
   } 
   while (n < 15)
     return a;
   }  
 
-  function iLoveTheBeatles(n) {
+  function iLoveTheBeatle(n) {  //  if/else
     if (n<15){ var iLoveTheBeatles = ['I love the Beatles!']
     while (n > 0) {
      iLoveTheBeatles.push('I love the Beatles!');
@@ -39,36 +47,3 @@ function iLoveTheBeatle(n) {
      return iLoveTheBeatles;}
      else {return ['I love the Beatles!']}
   }
-
-
-
-
-function forLoop(array) {
-  for (let i = 0; i < 25; i++) {
-    if (i === 1) {
-      array.push("I am 1 strange loop.")
-    } else {
-      array.push(`I am ${i} strange loops.`)
-    }
-  }
-  return array
-}
-
-function whileLoop(n) {
- while (n > 0) {
-  console.log("${n}");
-  n = n-1};
-  return('done')
-}
-
-function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-
-  do {
-    array = array.slice(1)
-  } while (array.length > 0 && maybeTrue())
-
-  return array
-}
