@@ -16,12 +16,53 @@ instruments array: `"John Lennon plays guitar"`.
 
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
-  const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-  const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-
-  function forLoop(array) {
-  for (let i = 0; i++) {
-  array.push('musicians[0] plays instruments[0] strange loop ${i===0 ?')
+  for (var i = 0; i < musicians.length; i++) {
+  array.push(musicians[i] + " plays " + instruments[i]);
   }
   return array;
+}
+
+/*
+- Create a function johnLennonFacts.
+- This function will accept one argument, an array of facts about John Lennon
+(note that it might not be exactly the following facts):
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+- Use a while loop to loop over the facts array and add "!!!" to the end of
+every fact.
+- The function should return an array of strings with exclamation points.
+*/
+
+function johnLennonFacts(facts) {
+  var newFacts = [];
+  var i = 0;
+while (i < facts.length) {
+  newFacts.push(facts[i] + "!!!")
+  i++;
+  }
+  return newFacts;
+  }
+
+/*
+- Create a function iLoveTheBeatles which accepts a number as a parameter.
+- The body of the function should create a variable that stores an empty array.
+- Then, implement a do-while loop inside the function that adds
+"I love the Beatles!" to the empty array.
+- Then the loop should increment the number passed in as a parameter.
+- The condition of the loop should check to see that the parameter number is
+less than 15. The function should return the array with the
+strings "I love the Beatles!".
+*/
+
+function iLoveTheBeatles(n) {
+  var array = [];
+do {
+  array.push("I love the Beatles!");
+  n++;
+} while (n < 15);
+return array;
 }
