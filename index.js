@@ -3,7 +3,10 @@ function theBeatlesPlay (musicians, instruments) {var info = [];
                                       {info.push(musicians[i] + ' plays ' + instruments[i])};
                                     return info}
 
-function johnLennonFacts(array) {var i = 0; while (array[i] < array.length) {return array[i] + '!!!'}}
+function johnLennonFacts(facts) { var feltolteni = [];
+                                  var i = 0;
+                                  while (facts[i] < facts.length) {feltolteni.push(facts[i] + '!!!'); i++}
+                                  return feltolteni}
 
 function iLoveTheBeatles(number) {var love = []; do {love.push('I love the Beatles!'); ++ number}
                                                   while (number < 15);
