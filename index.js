@@ -5,7 +5,7 @@ function theBeatlesPlay (musicians, instruments) {var info = [];
 
 function johnLennonFacts(facts) { var feltolteni = [];
                                   var i = 0;
-                                  while (facts[i] < facts.length) {feltolteni.push(facts[i] + '!!!'); i++}
+                                  while (feltolteni.length < facts.length) {feltolteni.push(facts[i] += '!!!'); i++}
                                   return feltolteni}
 
 function iLoveTheBeatles(number) {var love = []; do {love.push('I love the Beatles!'); ++ number}
