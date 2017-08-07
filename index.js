@@ -15,6 +15,8 @@ function johnLennonFacts(facts){
   }
   return excitedFacts
 }
+/* the prompt in the readme does not tell the student if the order of the strings in the array matters.
+ Unless they look at the test to begin with, valid solutions could increment with i++ or i-- */
 
 function iLoveTheBeatles(number){
   var array = [];
