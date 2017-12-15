@@ -1,5 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
   var list = [];
+  /*for (let n = 0, l = musicians.length; i < l; i++)*/
   var n = 0;
   for (musicians[n]; n < 4; n++) {
     list.push(`${musicians[n]} plays ${instruments[n]}`);
@@ -11,6 +12,7 @@ function johnLennonFacts(fact) {
   var jlist = [];
   var l = fact.length;
   var n = 0;
+  /*(i < facts.length*/
   while (n < l) {
     jlist.push(`${fact[n]}!!!`); n++;
   }
