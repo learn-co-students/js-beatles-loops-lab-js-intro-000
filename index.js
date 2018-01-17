@@ -36,6 +36,8 @@ function johnLennonFacts(facts)
   return shoutedFacts  
 }
 
+johnLennonFacts(facts);
+
 function iLoveTheBeatles(n)
 {
   const luvBeatles = [];
