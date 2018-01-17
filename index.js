@@ -49,3 +49,5 @@ function iLoveTheBeatles(n)
   
   return luvBeatles;
 }
+
+iLoveTheBeatles(10);
