@@ -16,10 +16,10 @@ var i = facts.length - 1
 }
 
 function iLoveTheBeatles(num) {
-var strArr = []
+var strArray = []
 do {
-  strArr.push("I love the Beatles!")
+  strArray.push("I love the Beatles!")
   num++
 } while (num<15);
-return strArr
+return strArray
 }
