@@ -1,4 +1,3 @@
-//
 function theBeatlesPlay(musicians, instruments) {
   var strArray = []
   for (var i = 0; i < musicians.length; i++) {
@@ -21,6 +20,6 @@ var strArr = []
 do {
   strArr.push("I love the Beatles!")
   num++
-} while (num < 15);
+} while (num<15);
 return strArr
 }
