@@ -1,4 +1,3 @@
-// add solution here
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
   for (var i = 0; i < musicians.length; i++) {
@@ -25,3 +24,4 @@ function iLoveTheBeatles(num) {
   } while (num < 15);
   return array;
 }
+
