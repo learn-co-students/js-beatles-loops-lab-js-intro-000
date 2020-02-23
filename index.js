@@ -5,6 +5,6 @@ var answer = []
 function theBeatlesPlay(musicians, instruments) {
   for (let i = 0, i < 3, i++){
     answer.push(`${musicians[i]} plays ${instruments[i]}`);
-    return answer;
-}
+    console.log(answer);
+  }
 }
