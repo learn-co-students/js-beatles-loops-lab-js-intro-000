@@ -16,7 +16,6 @@ function johnLennonFacts(array) {
   var Newarray =[];
   for (let i = 0; i < array.length; i++) {
      Newarray.push(`${array[i]}!!!`);
-    // array[i] = array[i] + "!!!";
   } return Newarray;
 }*/
 
