@@ -6,16 +6,8 @@ function theBeatlesPlay(musicians,instruments){
   return array
 }
 function johnLennonFacts(facts){
-  let i=0
-  while(i<facts.length){
-    facts[i]+='!!!'
-    i++
-  }
-  return facts
-}
-function iLoveTheBeatles(num){
-  let array=[]
-  do{array.push("I love the Beatles!"); num++}
-while(num<15)
+let i = 0
+while(i<johnLennonFacts.length)
+facts[i]+='!!!'
 return array
 }
