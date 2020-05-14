@@ -35,10 +35,14 @@ function iLoveTheBeatles(num)
   var loveTheBeatles = [];
 
 
-  do {
+//  var n = 0
+  do
+  {
+    num++
     loveTheBeatles.push("I love the Beatles!")
-  } while (num>=7);
-  num ++
+
+  } while (num < 15);
+
 
   return loveTheBeatles
 }
