@@ -17,10 +17,9 @@ return arrayFacts;
 
 function iLoveTheBeatles(num) {
   let arrayNew = [];
-  let i = 0;
-    do {
-      arrayNew[i] = "I love the Beatles!"
-      i++;
-    } while (i < 15);
+      do {
+      arrayNew[num] = "I love the Beatles!"
+      num++;
+    } while (num < 15);
   return arrayNew;
 }
