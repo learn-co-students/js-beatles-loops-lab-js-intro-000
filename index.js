@@ -10,7 +10,7 @@ let i = 0
 
 let johnLennonFacts = facts => {
   while (i < facts.length) {
-    let facts[i] = facts.splice(i, 1, facts[i] + "!!!");
+    facts() {facts.splice(i, 1, facts[i] + "!!!")};
     i += 1
   } return facts
 }
