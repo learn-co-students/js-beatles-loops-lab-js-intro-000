@@ -16,7 +16,7 @@ let i = 0
 
 let johnLennonFacts = facts => {
   while (i < facts.length) {
-    facts.push(`${facts[i]}` + "!!!")
+    return facts(){`${facts[i]}!!!`}
     i += 1
   } return facts
 }
