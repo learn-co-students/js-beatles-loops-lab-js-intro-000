@@ -7,13 +7,14 @@ function theBeatlesPlay(musicians,instruments){
   return instrumentsPlayed
 }
 
+
 // create a function johnLennonFacts it accepts one argument, an array of facts
 function johnLennonFacts(facts) {
   let lennonFacts = [];
 
   // use a while loop over the facts array and add "!!!" to the end of every fact.
   let index = 0;
-  while (facts[index]) {
+  while (index<facts.length) {
     lennonFacts.push(`${facts[index]}!!!`);
     index++;
   }
@@ -35,5 +36,5 @@ function iLoveTheBeatles(num) {
   } while (num < 15);
 
   // return the array of strings.
-  return arr;
+  return arr
 }
